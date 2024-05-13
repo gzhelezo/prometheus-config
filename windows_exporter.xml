@@ -32,7 +32,7 @@
   <Actions Context="Author">
     <Exec>
       <Command>%USERPROFILE%\windows_exporter.exe</Command>
-      <Arguments>--collectors.enabled "[defaults],memory,process,mssql,iis,cpu_info,tcp,netframework_clrmemory" --collector.service.services-where "Name LIKE 'BD%'"</Arguments>
+      <Arguments>--collectors.enabled "[defaults],memory,process,mssql,iis,cpu_info,tcp,netframework_clrmemory" --collector.service.services-where "Name LIKE 'GZ%'"</Arguments>
     </Exec>
   </Actions>
 </Task>
